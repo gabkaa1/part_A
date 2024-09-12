@@ -28,7 +28,7 @@ def user_n(sep_f):
         if len_list == 5:
             user_name = i[1][0] + i[2][0] + i[3]
         else:
-            user_name = i[1][0] + i[3]
+            user_name = i[1][0] + i[2]
         i.insert(1, user_name[0:8].lower())
         us_n.append(i)
     return us_n

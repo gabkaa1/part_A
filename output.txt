@@ -1,7 +1,5 @@
 1234:jmhurban:Jozef:Miloslav:Hurban:Legal
 4567:mrstefan:Milan:Rastislav:Stefanik:Defence
-4563:jdevelop:Jozef:Murgas:Development
-4563:psales
-:Pista:Hufnagel:Sales
-1111:psales
-:Pista:Hufnagel:Sales
+4563:jmurgas:Jozef:Murgas:Development
+4563:phufnage:Pista:Hufnagel:Sales
+1111:phufnage:Pista:Hufnagel:Sales
