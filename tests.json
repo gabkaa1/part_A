@@ -1,0 +1,204 @@
+{
+    "read_fl": {
+        "input": [
+            "input_file1.txt",
+            "input_file2.txt",
+            "input_file3.txt",
+            "file_file"
+        ],
+        "output": [
+            [
+                "1234:Jozef:Miloslav:Hurban:Legal\n",
+                "4567:Milan:Rastislav:Stefanik:Defence\n",
+                "4563:Jozef::Murgas:Development\n"
+            ],
+            [
+                "4563:Pista::Hufnagel:Sales\n",
+                "1111:Pista::Hufnagel:Sales\n"
+            ],
+            [],
+            null
+        ]
+    },
+    "user_n": {
+        "input": [
+            [
+                "1234:Jozef:Miloslav:Hurban:Legal\n",
+                "4567:Milan:Rastislav:Stefanik:Defence\n",
+                "4563:Jozef::Murgas:Development\n"
+            ],
+            [
+                "4563:Pista::Hufnagel:Sales\n",
+                "1111:Pista::Hufnagel:Sales\n"
+            ],
+            [
+                "\n"
+            ]
+            ],
+            
+
+        "output": [
+            [
+                [
+                    "1234",
+                    "jmhurban",
+                    "Jozef",
+                    "Miloslav",
+                    "Hurban",
+                    "Legal\n"
+                ],
+                [
+                    "4567",
+                    "mrstefan",
+                    "Milan",
+                    "Rastislav", "Stefanik", "Defence\n"
+                ],
+                [
+                    "4563",
+                    "jmurgas",
+                    "Jozef",
+                    "",
+                    "Murgas",
+                    "Development\n"
+                ]
+            ],
+            [
+                [
+                    "4563",
+                    "phufnage",
+                    "Pista",
+                    "",
+                    "Hufnagel",
+                    "Sales\n"
+                ],
+                [
+                    "1111",
+                    "phufnage1",
+                    "Pista",
+                    "",
+                    "Hufnagel",
+                    "Sales\n"
+                ]
+            ],
+            [
+                
+            ]
+        ]
+    },
+    "sepr": {
+        "input": [
+            [
+                "1234:Jozef:Miloslav:Hurban:Legal\n",
+                "4567:Milan:Rastislav:Stefanik:Defence\n",
+                "4563:Jozef::Murgas:Development\n"
+            ],
+            [
+                "4563:Pista::Hufnagel:Sales\n",
+                "1111:Pista::Hufnagel:Sales\n"
+            ],
+            [
+                "\n"
+            ]
+        ],
+        "output": [
+            [
+                ["1234",
+                "Jozef",
+                "Miloslav",
+                "Hurban",
+                "Legal\n"],
+                ["4567",
+                "Milan",
+                "Rastislav",
+                "Stefanik",
+                "Defence\n"],
+[                "4563",
+                "Jozef",
+                "",
+                "Murgas",
+                "Development\n"]
+            ],
+            [
+                ["4563",
+                "Pista",
+                "",
+                "Hufnagel",
+                "Sales\n"],
+                ["1111",
+                "Pista",
+                "",
+                "Hufnagel",
+                "Sales\n"]
+            ],
+            [
+                ["\n"]
+            ]
+        ]
+    },
+    "main": {
+        "input": [
+            "input_file1.txt",
+            "input_file2.txt",
+            "input_file3.txt",
+            "file_file"
+        ],
+        "output": [
+            "1234:jmhurban:Jozef:Miloslav:Hurban:Legal\n",
+            "4567:mrstefan:Milan:Rastislav:Stefanik:Defence\n",
+            "4563:jmurgas:Jozef::Murgas:Development\n",
+            "4563:phufnage:Pista::Hufnagel:Sales\n",
+            "1111:phufnage1:Pista::Hufnagel:Sales\n"
+        ]
+    },
+    "instr_file": {
+        "input": [
+            [
+                [
+                    "1234",
+                    "jmhurban",
+                    "Jozef",
+                    "Miloslav",
+                    "Hurban",
+                    "Legal\n"
+                ],
+                [
+                    "4567",
+                    "mrstefan",
+                    "Milan",
+                    "Rastislav", "Stefanik", "Defence\n"
+                ],
+                [
+                    "4563",
+                    "jmurgas",
+                    "Jozef",
+                    "",
+                    "Murgas",
+                    "Development\n"
+                ]
+            ],
+            [
+                [
+                    "4563",
+                    "phufnage",
+                    "Pista",
+                    "",
+                    "Hufnagel",
+                    "Sales\n"
+                ],
+                [
+                    "1111",
+                    "phufnage1",
+                    "Pista",
+                    "",
+                    "Hufnagel",
+                    "Sales\n"
+                ]
+            ],
+            [
+                "\n"
+            ]
+        ],
+        "output": [
+        ]
+    }
+}
